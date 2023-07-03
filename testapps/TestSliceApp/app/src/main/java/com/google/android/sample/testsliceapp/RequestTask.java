@@ -27,7 +27,7 @@ class RequestTask{
     String ping(Network network) {
         URL url = null;
         try {
-            url = new URL("http://connectivity.ecloud.global");
+            url = new URL("http://www.google.com");
         } catch (Exception e) {
         }
         if (url != null) {
