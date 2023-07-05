@@ -1338,7 +1338,7 @@
     <string name="rtt_mode_more_information">
        RTT assists callers who are deaf, hard of hearing, have a speech disability,
        or need more than voice alone.&lt;br>
-       &lt;a href="<xliff:g example="http://www.google.com" id="url">http://support.google.com/mobile?p=telephony_rtt</xliff:g>">Learn more&lt;/a>
+       &lt;a href="<xliff:g example="http://dns.quad9.net" id="url">http://support.google.com/mobile?p=telephony_rtt</xliff:g>">Learn more&lt;/a>
        &lt;br>&lt;br> - RTT calls are saved as a message transcript
        &lt;br> - RTT is not available for video calls</string>
 
@@ -2136,9 +2136,9 @@
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_set_perferred_label">Set Preferred Network Type:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ping_hostname_v4">Ping Hostname(www.google.com) IPv4:</string>
+    <string name="radio_info_ping_hostname_v4">Ping Hostname(dns.quad9.net) IPv4:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ping_hostname_v6">Ping Hostname(www.google.com) IPv6:</string>
+    <string name="radio_info_ping_hostname_v6">Ping Hostname(dns.quad9.net) IPv6:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_http_client_test">HTTP Client Test:</string>
     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
