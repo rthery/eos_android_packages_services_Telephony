@@ -893,8 +893,8 @@
     <string name="radio_info_override_network_type_label" msgid="4176280017221092005">"覆寫網絡類型："</string>
     <string name="phone_index_label" msgid="6222406512768964268">"選取手機索引"</string>
     <string name="radio_info_set_perferred_label" msgid="7408131389363136210">"設定偏好的網絡類型："</string>
-    <string name="radio_info_ping_hostname_v4" msgid="6951237885381284790">"連線偵測主機名稱 (www.google.com) IPv4："</string>
-    <string name="radio_info_ping_hostname_v6" msgid="2748637889486554603">"連線偵測主機名稱 (www.google.com) IPv6："</string>
+    <string name="radio_info_ping_hostname_v4" msgid="6951237885381284790">"連線偵測主機名稱 (dns.quad9.net) IPv4："</string>
+    <string name="radio_info_ping_hostname_v6" msgid="2748637889486554603">"連線偵測主機名稱 (dns.quad9.net) IPv6："</string>
     <string name="radio_info_http_client_test" msgid="1329583721088428238">"HTTP 用戶端測試："</string>
     <string name="ping_test_label" msgid="448617502935719694">"執行連線偵測測試"</string>
     <string name="radio_info_smsc_label" msgid="3749927072726033763">"SMSC："</string>

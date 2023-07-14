@@ -1274,7 +1274,7 @@ public class RadioInfo extends AppCompatActivity {
     private void pingHostname() {
         try {
             try {
-                Process p4 = Runtime.getRuntime().exec("ping -c 1 www.google.com");
+                Process p4 = Runtime.getRuntime().exec("ping -c 1 9.9.9.9");
                 int status4 = p4.waitFor();
                 if (status4 == 0) {
                     mPingHostnameResultV4 = "Pass";
@@ -1285,7 +1285,7 @@ public class RadioInfo extends AppCompatActivity {
                 mPingHostnameResultV4 = "Fail: IOException";
             }
             try {
-                Process p6 = Runtime.getRuntime().exec("ping6 -c 1 www.google.com");
+                Process p6 = Runtime.getRuntime().exec("ping6 -c 1 2620:fe::fe");
                 int status6 = p6.waitFor();
                 if (status6 == 0) {
                     mPingHostnameResultV6 = "Pass";
@@ -1307,7 +1307,7 @@ public class RadioInfo extends AppCompatActivity {
         HttpURLConnection urlConnection = null;
         try {
             // TODO: Hardcoded for now, make it UI configurable
-            URL url = new URL("https://www.google.com");
+            URL url = new URL("https://www.quad9.net");
             urlConnection = (HttpURLConnection) url.openConnection();
             if (urlConnection.getResponseCode() == 200) {
                 mHttpClientTestResult = "Pass";
