@@ -198,7 +198,7 @@
     <string name="config_disable_cdma_activation_code" translatable="false">false</string>
 
     <!-- Flag indicating if SIM state should be checked before making an outgoing call. -->
-    <bool name="config_checkSimStateBeforeOutgoingCall">false</bool>
+    <bool name="config_checkSimStateBeforeOutgoingCall">true</bool>
     <!-- Package name for the SIM unlock dialog.[DO NOT TRANSLATE] -->
     <string name="config_simUnlockUiPackage" translatable="false">@null</string>
     <!-- Class name for the SIM unlock dialog.[DO NOT TRANSLATE] -->
